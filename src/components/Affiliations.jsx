@@ -9,7 +9,7 @@ function Affiliations() {
 
       {/* Heading */}
       <motion.h2
-        className="relative text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 tracking-tight"
+        className="relative text-3xl md:text-4xl font-extrabold text-black mb-6 tracking-tight"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
@@ -29,7 +29,7 @@ function Affiliations() {
 
       {/* Paragraph */}
       <motion.p
-        className="relative text-gray-900 max-w-4xl mx-auto leading-relaxed text-lg font-light"
+        className="relative text-black max-w-4xl mx-auto leading-relaxed text-lg font-light"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}

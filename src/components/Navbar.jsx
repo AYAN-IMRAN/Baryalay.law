@@ -14,7 +14,7 @@ function Navbar() {
     { name: "News & Insights", path: "/news" },
     { name: "Our People", path: "/people" },
     { name: "Clients", path: "/clients" },
-    { name: "Contact", path: "/contact" },
+    { name: "", path: "/contact" },
   ];
 
   return (
